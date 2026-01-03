@@ -40,22 +40,21 @@
             background-repeat: no-repeat;
         }
 
-        /* ЛОГОТИП СТИЛІ */
-        .logo-box {
-    width: 180px;  /* Ені */
-    height: 180px; /* Биіктігі (Екеуі бірдей болуы керек!) */
-    margin-bottom: 15px;
-    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.5));
-    overflow: hidden; /* Артық жерлерін кесіп тастайды */
+.logo-box {
+    width: 180px;      /* Ені */
+    height: 180px;     /* Биіктігі - МІНДЕТТІ ТҮРДЕ ЕНІМЕН БІРДЕЙ БОЛУЫ КЕРЕК */
+    margin: 0 auto 20px auto;
+    overflow: hidden;  /* Сыртына шығып тұрған жерлерін кесіп тастайды */
+    border-radius: 50%; /* Қорапшаның өзін домалақ қыламыз */
+    border: 3px solid var(--gold);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
 }
 
-       .logo-img {
+.logo-img {
     width: 100%;
-    height: 100%; /* Биіктігін де 100% қыламыз */
+    height: 100%;
+    object-fit: cover; /* СУРЕТТІ ҚЫСПАЙ, ОРТАҒА СӘЙКЕСТЕНДІРІП КЕСЕДІ */
     display: block;
-    object-fit: cover; /* Сурет созылып кетпеуі үшін өте маңызды */
-    border-radius: 50%; /* Міне, осы жол фотоны домалақ қылады */
-    border: 3px solid var(--gold); /* Айналасына алтын жиек қосады */
 }
 
         .main-title {
