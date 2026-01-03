@@ -42,11 +42,12 @@
 
         /* ЛОГОТИП СТИЛІ */
         .logo-box {
-            width: 200px; /* Логотиптің өлшемін үлкейттік */
-            height: auto;
-            margin-bottom: 15px;
-            filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.5));
-        }
+    width: 180px;  /* Ені */
+    height: 180px; /* Биіктігі (Екеуі бірдей болуы керек!) */
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.5));
+    overflow: hidden; /* Артық жерлерін кесіп тастайды */
+}
 
         .logo-img {
             width: 100%;
