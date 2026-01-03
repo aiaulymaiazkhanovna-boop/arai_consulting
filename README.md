@@ -49,11 +49,14 @@
     overflow: hidden; /* Артық жерлерін кесіп тастайды */
 }
 
-        .logo-img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
+       .logo-img {
+    width: 100%;
+    height: 100%; /* Биіктігін де 100% қыламыз */
+    display: block;
+    object-fit: cover; /* Сурет созылып кетпеуі үшін өте маңызды */
+    border-radius: 50%; /* Міне, осы жол фотоны домалақ қылады */
+    border: 3px solid var(--gold); /* Айналасына алтын жиек қосады */
+}
 
         .main-title {
             font-size: 1.8rem;
